@@ -13,7 +13,7 @@ export default function navbar() {
                     <Nav className="m-auto my-2 my-lg-0" navbarScroll>
                         <Link to="/" className="nav-link text-uppercase ml-5">Acceuil</Link>
                         <Link to="/solutions" className="nav-link text-uppercase ml-5">Nos Solutions</Link>
-                        <Link to="/contact" className="nav-link text-uppercase ml-5">Contactes Nous</Link>
+                        <Link to="/contact" className="nav-link text-uppercase ml-5">Contactez Nous</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

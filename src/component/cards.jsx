@@ -1,30 +1,71 @@
 import React from 'react'
-import { Card, CardGroup } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import t920 from '../images/t920.png';
 import t140 from '../images/t140.png';
 import gh5200 from '../images/gh5200.png';
+import Alert from 'react-bootstrap/Alert';
+
 
 export default function cards() {
     return (
-        <CardGroup>
-            <Card className="border-right-0">
-                <Card.Title><h1>Fmb920</h1></Card.Title>
-                <Card.Img variant="top" src={t920} />
-                <Card.Text>Solution pour un Tracking Léger.</Card.Text>
-                <Card.Footer><small className="text-muted">Prix : 1 000.00 Dhs/Ht</small></Card.Footer>
-            </Card>
-            <Card className="border-left-0">
-                <Card.Title><h1>Fmb140</h1></Card.Title>
-                <Card.Img variant="top" src={t140} />
-                <Card.Text>Solution avancée pour les professionnels.</Card.Text>
-                <Card.Footer> <small className="text-muted">Prix : 1 500.00 Dhs/Ht</small></Card.Footer>
-            </Card>
-            <Card className="border-left-0">
-                <Card.Title><h1>Gh5200</h1></Card.Title>
-                <Card.Img variant="top" src={gh5200} />
-                <Card.Text>Pour un meilleur contact entre les collaborateurs.</Card.Text>
-                <Card.Footer><small className="text-muted">Prix : 1 200 Dhs/Ht</small></Card.Footer>
-            </Card>
-        </CardGroup>
-    )
+        <div>
+            <Alert key="primary" variant="secondary">Nos Solutions</Alert>
+            <Row xs={1} md={3}>
+                <Col>
+                    <Card>
+                        <Card.Header>
+                            <Card.Title>Fmb920</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Traceur Léger</Card.Subtitle>
+                        </Card.Header>
+                        <Card.Img variant="top" src={t920} style={{ width: '18rem' }} />
+                        <Card.Body>
+                            <Card.Text>
+                                Le Fmb920est un petit traceur professionnel avec antennes GPS et Batterie intégrées,
+                                il permet la collecte des positions et la coupure de moteur à distance,
+                                c’est la solution efficace contre les abus d’utilisation pour les particuliers,
+                                les gestionnaires de parcs
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <Card.Header>
+                            <Card.Title>Fmb140</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Solution Avancée</Card.Subtitle>
+                        </Card.Header>
+                        <Card.Img variant="top" src={t140} style={{ width: '18rem' }} />
+                        <Card.Body>
+                            <Card.Text>
+                                Le FMB140 et la solution complète pour les professionnels de la logistique,
+                                ou un seul boitier peut faire différentes taches, il est conçu pour les solutions
+                                complexes, il permet la géolocalisation, la lecture OBD, DTS, FUEL CAN DATA,
+                                Tachéographe.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card>
+                        <Card.Header>
+                            <Card.Title>Gh5200</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Traceur Personnel</Card.Subtitle>
+                        </Card.Header>
+                        <Card.Img variant="top" src={gh5200} style={{ width: '18rem' }} />
+                        <Card.Body>
+                            <Card.Text>
+                                Ce Nouveau boitier relevé les positions et mouvement du personnel
+                                et l’envoie au serveur pour une gestion optimale des équipes sur le terrain;
+                                il a l’avantage d'avoir une batterie intégrée de grande autonomie permettant
+                                une gestion optimale des agents
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+
+        </div>)
 }
