@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Card } from "react-bootstrap";
 
 import Row from 'react-bootstrap/Row';
@@ -12,7 +12,7 @@ import Alert from 'react-bootstrap/Alert';
 export default function cards() {
     return (
         <div>
-            <Alert key="primary" variant="secondary">Nos Solutions</Alert>
+            <Alert key="primary" variant="secondary" className="my-2">Nos Solutions</Alert>
             <Row xs={1} md={3}>
                 <Col>
                     <Card>
@@ -29,6 +29,7 @@ export default function cards() {
                                 les gestionnaires de parcs
                             </Card.Text>
                         </Card.Body>
+                        <Card.Footer className="text-muted"><h2>Prix : 900 Dhs</h2></Card.Footer>
                     </Card>
                 </Col>
                 <Col>
@@ -46,6 +47,7 @@ export default function cards() {
                                 Tachéographe.
                             </Card.Text>
                         </Card.Body>
+                        <Card.Footer className="text-muted"><h2>Prix : 1 400 Dhs</h2></Card.Footer>
                     </Card>
                 </Col>
                 <Col>
@@ -63,6 +65,7 @@ export default function cards() {
                                 une gestion optimale des agents
                             </Card.Text>
                         </Card.Body>
+                        <Card.Footer className="text-muted"><h2>Prix : 1 200 Dhs</h2></Card.Footer>
                     </Card>
                 </Col>
             </Row>

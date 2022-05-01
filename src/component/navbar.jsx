@@ -11,8 +11,7 @@ export default function navbar() {
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="m-auto my-2 my-lg-0" navbarScroll>
-                        <Link to="/" className="nav-link text-uppercase ml-5">Acceuil</Link>
-                        <Link to="/solutions" className="nav-link text-uppercase ml-5">Nos Solutions</Link>
+                        <Link to="/solutions" className="nav-link text-uppercase ml-5">Nos Produits</Link>
                         <Link to="/contact" className="nav-link text-uppercase ml-5">Contactez Nous</Link>
                     </Nav>
                 </Navbar.Collapse>

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 function Footer() {
   return (
-    <FooterContainer className="main-footer bg-secondary d-flex justify-content-center text-justify">
+    <FooterContainer className="main-footer bg-secondary d-flex justify-content-center text-justify mt-2">
         <div className="footer-middle">
         <div className="container text-center">
             <a href="https://wa.me/212667563222?text=Bonjour"><i class="fa-brands fa-whatsapp-square fa-2x"></i></a>&nbsp;&nbsp;
