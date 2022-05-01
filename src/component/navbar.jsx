@@ -11,7 +11,6 @@ export default function navbar() {
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
                         className="m-auto my-2 my-lg-0"
-                        style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
                         <Nav.Link href="#action1" className="text-uppercase ml-5">Qui sommes nous</Nav.Link>
