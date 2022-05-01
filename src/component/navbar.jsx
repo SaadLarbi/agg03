@@ -14,9 +14,9 @@ export default function navbar() {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link href="#action1" className="text-uppercase ml-5">Home</Nav.Link>
-                        <Nav.Link href="#action2" className="text-uppercase ml-5">Link</Nav.Link>
-                        <Nav.Link href="#action2" className="text-uppercase ml-5">Contact Us</Nav.Link>
+                        <Nav.Link href="#action1" className="text-uppercase ml-5">Qui sommes nous</Nav.Link>
+                        <Nav.Link href="#action2" className="text-uppercase ml-5">Nos Produits</Nav.Link>
+                        <Nav.Link href="#action2" className="text-uppercase ml-5">Nos Services</Nav.Link>
                     </Nav>
                     <Form className="d-flex">
                         <FormControl
