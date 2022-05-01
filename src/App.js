@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <Carousel />
         <Cards />
-        <Footer />
+        <Footer /> 
       </div>    
   );
 }
