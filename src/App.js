@@ -8,7 +8,7 @@ import Footer from './component/Footer.jsx';
 
 function App() {
   return (
-      <div>
+      <div className="container">
         <Navbar />
         <Carousel />
         <Cards />
