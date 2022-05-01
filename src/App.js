@@ -8,9 +8,11 @@ import Footer from './component/Footer.jsx';
 import Home from './component/Home.js';
 import NotFoundPage from './component/NotFoundPage.js';
 import { Routes, Route } from 'react-router-dom';
+import {ThemeProvider } from 'react-bootstrap';
 
 function App() {
   return (
+    <ThemeProvider breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}>
       <div className="container">
         <Navbar />
         <Routes>
@@ -19,7 +21,8 @@ function App() {
           <Route element={<NotFoundPage />} ></Route>
         </Routes>
         <Footer /> 
-      </div>    
+      </div>   
+        </ThemeProvider> 
   );
 }
 export default App;
