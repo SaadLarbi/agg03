@@ -6,6 +6,7 @@ function Footer() {
     <FooterContainer className="main-footer bg-secondary d-flex justify-content-center text-justify">
         <div className="footer-middle">
         <div className="container text-center">
+            <a href="http://api.whatsapp.com/send?phone=+212667563222"><i class="fa-brands fa-whatsapp-square fa-2x"></i></a>&nbsp;&nbsp;
             <a href="/"><i class="fa-brands fa-twitter-square fa-2x"></i></a>&nbsp;&nbsp;
             <a href="/"><i class="fa-brands fa-facebook-square fa-2x"></i></a>&nbsp;&nbsp;
             <a href="/"><i class="fa-brands fa-youtube-square fa-2x"></i></a>&nbsp;&nbsp;
