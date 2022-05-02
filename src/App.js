@@ -10,10 +10,12 @@ import Menu from './component/menu.js';
 import NotFoundPage from './component/NotFoundPage.js';
 import { Routes, Route } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
+import {ThemeProvider} from 'react-bootstrap';
 
 function App() {
   return (
       <div className="container">
+      <ThemeProvider breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}>
         <Router>
         <Navbar />
           <Routes>
@@ -24,6 +26,7 @@ function App() {
         </Routes>
           </Router>
         <Footer /> 
+        </ThemeProvider>
       </div>   
   );
 }
