@@ -13,7 +13,7 @@ export default function cards() {
     return (
         <div>
             <Alert key="primary" variant="secondary" className="my-2"><h2><b>Nos Solutions</b></h2></Alert>
-            <Row xs={1} lg={3}>
+            <Row xs={1} sm={1} md={1} lg={3}>
                 <Col className="my-2">
                     <Card>
                         <Card.Header className="text-center text-md-right">
