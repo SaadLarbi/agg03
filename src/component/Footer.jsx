@@ -14,7 +14,7 @@ function Footer() {
             <a href="https://gmail.com"><i class="fa-solid fa-square-envelope fa-2x"></i></a>&nbsp;&nbsp;
             <a href="https://github.com"><i class="fa-brands fa-github-square fa-2x"></i></a>
             <div className="footer-bottom ">
-                <p className="text-xs-center">&copy;{new Date().getFullYear()} Slamtec - All Rights Reserved</p>
+                <p className="text-xs-center"><b>&copy;{new Date().getFullYear()} Slamtec - All Rights Reserved</b></p>
             </div>
         </div>
     </div>

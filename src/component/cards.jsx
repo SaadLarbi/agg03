@@ -12,13 +12,13 @@ import Alert from 'react-bootstrap/Alert';
 export default function cards() {
     return (
         <div>
-            <Alert key="primary" variant="secondary" className="my-2">Nos Solutions</Alert>
+            <Alert key="primary" variant="secondary" className="my-2"><h2><b>Nos Solutions</b></h2></Alert>
             <Row xs={1} lg={3}>
                 <Col className="my-2">
                     <Card>
-                        <Card.Header>
-                            <Card.Title>Fmb920</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">Traceur Léger</Card.Subtitle>
+                        <Card.Header className="text-center text-md-right">
+                            <Card.Title><b>Fmb920</b></Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted"><b className="text-primary">Traceur Léger</b></Card.Subtitle>
                         </Card.Header>
                         <Card.Img variant="top" src={t920} style={{ width: '18rem' }} />
                         <Card.Body>
@@ -29,14 +29,14 @@ export default function cards() {
                                 les gestionnaires de parcs
                             </Card.Text>
                         </Card.Body>
-                        <Card.Footer className="text-muted"><h2>Prix : 900 Dhs</h2></Card.Footer>
+                        <Card.Footer className="text-muted text-center text-md-right"><h2><b>Prix : 900 Dhs</b></h2></Card.Footer>
                     </Card>
                 </Col>
                 <Col className="mb-2">
                     <Card>
-                        <Card.Header>
-                            <Card.Title>Fmb140</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">Solution Avancée</Card.Subtitle>
+                        <Card.Header className="text-center text-md-right">
+                            <Card.Title><b>Fmb140</b></Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted"><b className="text-danger">Solution Avancée</b></Card.Subtitle>
                         </Card.Header>
                         <Card.Img variant="top" src={t140} style={{ width: '18rem' }} />
                         <Card.Body>
@@ -44,17 +44,17 @@ export default function cards() {
                                 Le FMB140 et la solution complète pour les professionnels de la logistique,
                                 ou un seul boitier peut faire différentes taches, il est conçu pour les solutions
                                 complexes, il permet la géolocalisation, la lecture OBD, DTS, FUEL CAN DATA,
-                                Tachéographe.
+                                Tachéographe. une solution tout en un centralisée et pratique
                             </Card.Text>
                         </Card.Body>
-                        <Card.Footer className="text-muted"><h2>Prix : 1 400 Dhs</h2></Card.Footer>
+                        <Card.Footer className="text-muted text-center text-md-right"><h2><b>Prix : 1 400 Dhs</b></h2></Card.Footer>
                     </Card>
                 </Col>
                 <Col className="mb-2">
                     <Card>
-                        <Card.Header>
-                            <Card.Title>Gh5200</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">Traceur Personnel</Card.Subtitle>
+                        <Card.Header className="text-center text-md-right">
+                            <Card.Title><b>Gh5200</b></Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted"><b className="text-success">Traceur Personnel</b></Card.Subtitle>
                         </Card.Header>
                         <Card.Img variant="top" src={gh5200} style={{ width: '18rem' }} />
                         <Card.Body>
@@ -65,7 +65,7 @@ export default function cards() {
                                 une gestion optimale des agents
                             </Card.Text>
                         </Card.Body>
-                        <Card.Footer className="text-muted"><h2>Prix : 1 200 Dhs</h2></Card.Footer>
+                        <Card.Footer className="text-muted text-center text-md-right"><h2><b>Prix : 1 200 Dhs</b></h2></Card.Footer>
                     </Card>
                 </Col>
             </Row>

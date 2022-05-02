@@ -6,18 +6,23 @@ import Navbar from './component/navbar.jsx';
 import Cards from './component/cards.jsx';
 import Footer from './component/Footer.jsx';
 import Home from './component/Home.js';
+import Menu from './component/menu.js';
 import NotFoundPage from './component/NotFoundPage.js';
 import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
       <div className="container">
+        <Router>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<><Carousel /><Home /></>} ></Route>
-          <Route path="/solutions" element={<Cards />} ></Route>
-          <Route element={<NotFoundPage />} ></Route>
+          <Routes>
+            <Route path="/" element={<><Carousel /><Home /></>} ></Route>
+            <Route path="/menu" element={<Menu />} ></Route>
+            <Route path="/solutions" element={<Cards />} ></Route>
+            <Route element={<NotFoundPage />} ></Route>
         </Routes>
+          </Router>
         <Footer /> 
       </div>   
   );
