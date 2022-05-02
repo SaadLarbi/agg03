@@ -7,11 +7,10 @@ class Home extends Component {
     return (      
       <div>
         <Alert key="primary" variant="primary" className="my-2 b-2">Home Page</Alert>
-        <Card body className="my-2 b-2" >SLAMTEC est une jeune entreprise marocaine engagée dans l’évolution technologique, par ses
-          différents produits et solutions proposée aux professionnels dans le but de
-          moderniser leurs businesse quotidien et grâce a son expertise de plus de 10 ans dans le
-          domaine de la géolocalisation par gps tracker, SLAMTEC propose une prestation avec un meilleur 
-          rapport qualité prix.
+        <Card body className="my-2 b-2" >SLAMTEC est une jeune entreprise marocaine engagée dans l’évolution 
+        technologique, par ses différents produits et solutions proposés aux professionnels dans le but de
+          moderniser leurs quotidiens. Grâce a son expertise de plus de 10 ans dans le
+          ioT et la géolocalisation, SLAMTEC propose une prestation conplete cle en main.
         </Card>
       </div>
     )

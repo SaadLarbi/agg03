@@ -14,7 +14,7 @@ export default function cards() {
         <div>
             <Alert key="primary" variant="secondary" className="my-2">Nos Solutions</Alert>
             <Row xs={1} lg={3}>
-                <Col>
+                <Col className="my-2">
                     <Card>
                         <Card.Header>
                             <Card.Title>Fmb920</Card.Title>
@@ -32,7 +32,7 @@ export default function cards() {
                         <Card.Footer className="text-muted"><h2>Prix : 900 Dhs</h2></Card.Footer>
                     </Card>
                 </Col>
-                <Col>
+                <Col className="mb-2">
                     <Card>
                         <Card.Header>
                             <Card.Title>Fmb140</Card.Title>
@@ -50,7 +50,7 @@ export default function cards() {
                         <Card.Footer className="text-muted"><h2>Prix : 1 400 Dhs</h2></Card.Footer>
                     </Card>
                 </Col>
-                <Col>
+                <Col className="mb-2">
                     <Card>
                         <Card.Header>
                             <Card.Title>Gh5200</Card.Title>
