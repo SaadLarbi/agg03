@@ -12,12 +12,17 @@ export default function navbar() {
             <Container fluid>
                 <Navbar.Brand href="/"> <img src={logo} alt="logo" className="ml-2" /></Navbar.Brand>
                 <Nav className="m-auto my-2 my-lg-0">
-                    <Link to="/solutions" className="nav-link text-uppercase ml-5"><h2 className="text-primary">Nos Produits</h2></Link>
-                    <Link to="/solutions" className="nav-link text-uppercase ml-5"><h2 className="text-primary">Nos Services</h2></Link>
+                    
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+                    <Link to="/solutions" className="nav-link text-uppercase ml-5"><h2 className="text-primary fs-5">Nos Produits</h2></Link>
+                    <Link to="/solutions" className="nav-link text-uppercase ml-5"><h2 className="text-primary fs-5">Nos Services</h2></Link>
+                    <Link to="/solutions" className="nav-link text-uppercase ml-5"><h2 className="text-primary fs-5">Devis Gratuit</h2></Link>
+                    </Navbar.Collapse>
                 </Nav>
-                    <Profile />
-                    <LoginButton  />
-                    <LogoutButton />
+                <Profile />
+                <LoginButton />
+                <LogoutButton />
             </Container>
         </Navbar>
     )
