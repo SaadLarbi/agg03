@@ -14,7 +14,7 @@ import {ThemeProvider} from 'react-bootstrap';
 
 function App() {
   return (
-      <div className="container">
+      <div>
       <ThemeProvider breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}>
         <Router>
         <Navbar />
