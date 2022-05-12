@@ -13,9 +13,10 @@ export default function navbar() {
                 <Navbar.Brand href="/"> <img src={logo} alt="logo" /></Navbar.Brand>
                 <Nav className="m-auto my-2 my-lg-0">
                     <Link to="/solutions" className="nav-link text-uppercase ml-5"><h2 className="text-primary">Nos Produits</h2></Link>
+                    <Link to="/solutions" className="nav-link text-uppercase ml-5"><h2 className="text-primary">Nos Services</h2></Link>
                 </Nav>
                     <Profile />
-                    <LoginButton />
+                    <LoginButton  />
                     <LogoutButton />
             </Container>
         </Navbar>
